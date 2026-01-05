@@ -61,11 +61,11 @@ This project demonstrates a complete booking workflow, role-based UI, and integr
 
 ```bash
 src/
-components/ # Reusable UI components
-pages/ # Guest / Host pages
-services/ # API request helpers
-utils/ # Auth utilities and config
-App.js
+├── components/ # Reusable UI components
+├── pages/ # Page-level components (Guest / Host)
+├── services/ # API request helpers
+├── utils/ # Auth utilities and configuration
+└── App.js
 ```
 
 ---
