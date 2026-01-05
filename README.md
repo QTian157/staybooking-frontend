@@ -60,35 +60,29 @@ This project demonstrates a complete booking workflow, role-based UI, and integr
 ## Project Structure
 
 src/
-├── components/ # Reusable UI components
-├── pages/ # Guest / Host pages
-├── services/ # API request helpers
-├── utils/ # Auth utilities and config
-└── App.js
+components/ # Reusable UI components
+pages/ # Guest / Host pages
+services/ # API request helpers
+utils/ # Auth utilities and config
+App.js
 
-yaml
-Copy code
 
 ---
 
 ## Environment Variables
 
-Create a `.env.local` file in the project root:
+
+Do NOT commit `.env.local` to GitHub.
+
+---
+
+## Run Locally
 
 ```bash
-REACT_APP_API_BASE_URL=http://localhost:8080
-Do NOT commit .env.local to GitHub.
 
-Run Locally
-bash
-Copy code
 npm install
 npm start
-Open in browser:
-http://localhost:3000
-
-yaml
-Copy code
+Open in browser: http://localhost:3000
 
 ---
 
