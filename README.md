@@ -59,13 +59,14 @@ This project demonstrates a complete booking workflow, role-based UI, and integr
 
 ## Project Structure
 
-```bash
+```
 src/
-├── components/ # Reusable UI components
-├── pages/ # Page-level components (Guest / Host)
-├── services/ # API request helpers
-├── utils/ # Auth utilities and configuration
-└── App.js
+├── components/ # UI components (Guest / Host related views)
+├── utils.js # Auth utilities and shared helpers
+├── App.js # Root React component
+├── index.js # Application entry point
+├── App.css
+└── index.css
 ```
 
 ---
