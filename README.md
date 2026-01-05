@@ -74,13 +74,8 @@ App.js
 
 
 Do NOT commit `.env.local` to GitHub.
+
 REACT_APP_API_BASE_URL=http://localhost:8080
-
-Do NOT commit `.env.local` to GitHub.
----
-
-## Run Locally
-
 ---
 
 ## Run Locally
