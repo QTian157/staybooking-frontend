@@ -68,3 +68,26 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## 结构
+### 1. package.json
+**dependency：比较重要的依赖**
+### 2. package-lock.json
+**能够兼容package.json里依赖版本的最新版本**
+**保证团队中所有人用的同一个版本dependencies**
+### 3. node_modules
+**download package-lock.json的所有dependencies的libararies**
+### 4. src
+**Index.js: project的js入口文件：完成react的初始化render 同时把底层的App.js放进去**
+**Index.css: project的css入口文件**
+**App.js: 底层的js**
+### 5. public
+**原版Html，没有对js的引用**
+
+## 前后端通信
+### 前后端通信的API：浏览器自带的 Fetch
+**fetch 就是浏览器自带的“发网络请求”的函数：**
+**前端用它去请求后端的 API（登录、注册、搜索、下单…），后端返回数据（通常是 JSON）。**
+
+**你可以把它理解成：**
+**前端 →（fetch 发请求）→ 后端 →（返回 JSON）→ 前端拿到数据更新页面**
