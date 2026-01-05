@@ -59,13 +59,14 @@ This project demonstrates a complete booking workflow, role-based UI, and integr
 
 ## Project Structure
 
+```bash
 src/
 components/ # Reusable UI components
 pages/ # Guest / Host pages
 services/ # API request helpers
 utils/ # Auth utilities and config
 App.js
-
+```
 
 ---
 
@@ -73,6 +74,12 @@ App.js
 
 
 Do NOT commit `.env.local` to GitHub.
+REACT_APP_API_BASE_URL=http://localhost:8080
+
+Do NOT commit `.env.local` to GitHub.
+---
+
+## Run Locally
 
 ---
 
@@ -83,8 +90,7 @@ Do NOT commit `.env.local` to GitHub.
 npm install
 npm start
 Open in browser: http://localhost:3000
-
----
+```
 
 
 
