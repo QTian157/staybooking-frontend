@@ -1,4 +1,7 @@
-const domain = "http://localhost:8080"; // 后端的部署地址
+// const domain = "http://localhost:8080"; // 后端的部署地址
+
+export const domain = "https://staybooking-backend.onrender.com";
+
 
 // template string `${}`
 // URL class: Url.xxParams.append(key: value) -> ?a=1
